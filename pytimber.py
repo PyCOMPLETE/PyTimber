@@ -39,7 +39,7 @@ def toTimeStamp(t):
     else:
         sec=int(t)
         nanos=int((t-sec)*1e9)
-        print sec*1000
+        #print sec*1000
         tt=Timestamp(long(sec*1000))
         #tt.setNanos(nanos)
         return tt
